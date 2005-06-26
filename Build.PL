@@ -2,7 +2,7 @@ use Module::Build;
 
 Module::Build->new(
     module_name         => 'Data::Taxonomy::Tags',
-    dist_version        => '0.04',
+    dist_version        => '0.05',
     dist_author         => 'Thomas Sibley, http://zulutango.org:82/',
     dist_abstract       => 'Easy management of a set of tags for any item',
     license             => 'perl',

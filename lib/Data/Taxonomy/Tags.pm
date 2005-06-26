@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 use vars qw($VERSION $ERROR);
-$VERSION = '0.04';
+$VERSION = '0.05';
 
 use overload
 	'""'     => sub { shift->as_string },
@@ -51,7 +51,7 @@ Returns a Data::Taxonomy::Tags object;
 
 =over 24
 
-=item C<separator => ['\s+', ' ']>
+=item C<< separator => ['\s+', ' '] >>
 
 Specifies the regex pattern (or compiled regex) which will be used to
 C<split> the tags apart and the character(s) used between tags when
@@ -63,7 +63,7 @@ operations (and is escaped for the regex).
 
 Defaults to C<['\s+', ' ']>.
 
-=item C<category => [':', ':']>
+=item C<< category => [':', ':'] >>
 
 Specifies the regex pattern (or compiled regex) which will be used to
 C<split> the tag name from it's optional category and the character(s)

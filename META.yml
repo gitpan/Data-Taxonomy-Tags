@@ -1,6 +1,6 @@
 ---
 name: Data-Taxonomy-Tags
-version: 0.04
+version: 0.05
 author:
   - 'Thomas Sibley, http://zulutango.org:82/'
 abstract: Easy management of a set of tags for any item
@@ -13,7 +13,7 @@ build_requires:
 provides:
   Data::Taxonomy::Tags:
     file: lib/Data/Taxonomy/Tags.pm
-    version: 0.04
+    version: 0.05
   Data::Taxonomy::Tags::Tag:
     file: lib/Data/Taxonomy/Tags/Tag.pm
 generated_by: Module::Build version 0.2611

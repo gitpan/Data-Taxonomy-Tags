@@ -25,6 +25,12 @@ object.
 
 =over 12
 
+=item new
+
+Creates a new instance of the class representing a single tag.  Requires two
+arguments (the input tag to parse and separator arrayref).  You shouldn't
+have to use this method yourself.
+
 =cut
 sub new {
     my ($class, $tag, $opt) = @_;

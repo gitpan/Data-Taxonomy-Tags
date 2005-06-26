@@ -5,7 +5,7 @@ WriteMakefile
           'PL_FILES' => {},
           'INSTALLDIRS' => 'site',
           'NAME' => 'Data::Taxonomy::Tags',
-          'VERSION' => '0.04',
+          'VERSION' => '0.05',
           'PREREQ_PM' => {
                            'Test::More' => 0,
                            'overload' => 0,
